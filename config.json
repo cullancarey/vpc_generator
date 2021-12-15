@@ -1,0 +1,7 @@
+{
+	"NumberOfVPCs": 1,
+	"NumberOfPublicSubnets": 3,
+	"NumberOfPrivateSubnets": 4,
+	"Region": "us-east-2",
+	"CIDR_Block": "10.0.0.0/16"
+}
