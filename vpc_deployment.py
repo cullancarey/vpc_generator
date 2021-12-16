@@ -16,7 +16,7 @@ def main():
     cidr_block = configuration_data['CIDR_Block']
 
     # Create a VPC
-    ec2_client = boto3.client('ec2', region_name="us-east-2")
+    ec2_client = boto3.client('ec2', region_name=region)
     vpc = VPC(ec2_client)
 
     vpc_response = vpc.create_vpc(cidr_block)
